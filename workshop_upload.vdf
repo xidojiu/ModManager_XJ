@@ -1,0 +1,7 @@
+"workshopitem"
+{
+    "appid" "457140"
+    "publishedfileid" "3776712228"
+    "contentfolder" "C:\\Users\\Administrator\\Documents\\Klei\\OxygenNotIncluded\\mods\\Steam\\3776712228"
+    "changenote" "v1.3.0\n\n新增：\n- 多语言支持：中文/英文/日文，根据游戏语言自动切换\n- 本地化改用 .po 文件，社区可自行修改翻译\n- 搜索框：按标题或备注实时过滤 mod 列表\n- 备注功能：Steam mod 也能加备注，重启不丢\n- 预设（整合包）：保存/应用/删除 mod 配置\n- 高级管理按钮：原版 Mods 界面右上角一键打开\n\n优化：\n- 两栏列表：已启用/未启用分开显示，一目了然\n- 排序操作更流畅，支持合并排序（本地+Steam 整组移动）\n- 删除本地 mod 时自动恢复原 Steam 版\n- 依赖 PLib，支持有配置界面的 mod 一键打开设置\n\n修复：\n- 编译部署稳定性修复\n- 本地化字符串不再硬编码，改为 .po 文件加载"
+}
