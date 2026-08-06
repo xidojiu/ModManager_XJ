@@ -1,0 +1,222 @@
+# ModManager_XJ 日本語翻訳
+# Japanese translation for ModManager_XJ
+
+msgctxt "STRINGS.MODMANAGER.TITLE"
+msgid "Mod Manager"
+msgstr "Mod マネージャー"
+
+msgctxt "STRINGS.MODMANAGER.MERGE_DISPLAY_ON"
+msgid "Merge: On"
+msgstr "マージ表示: オン"
+
+msgctxt "STRINGS.MODMANAGER.MERGE_DISPLAY_OFF"
+msgid "Merge: Off"
+msgstr "マージ表示: オフ"
+
+msgctxt "STRINGS.MODMANAGER.MERGE_DISPLAY_TOOLTIP"
+msgid "Hide Steam mods that have a local copy, show only the preferred version"
+msgstr "ローカルコピーがあるSteam Modを非表示にし、優先バージョンのみ表示します"
+
+msgctxt "STRINGS.MODMANAGER.MERGE_SORT_ON"
+msgid "Merge Sort: On"
+msgstr "マージ並び替え: オン"
+
+msgctxt "STRINGS.MODMANAGER.MERGE_SORT_OFF"
+msgid "Merge Sort: Off"
+msgstr "マージ並び替え: オフ"
+
+msgctxt "STRINGS.MODMANAGER.MERGE_SORT_TOOLTIP"
+msgid "When on, paired mods move together; when off, only the clicked mod moves"
+msgstr "オンにするとペアのModが一緒に移動し、オフにするとクリックしたModのみ移動します"
+
+msgctxt "STRINGS.MODMANAGER.CLOSE"
+msgid "Close"
+msgstr "閉じる"
+
+msgctxt "STRINGS.MODMANAGER.PRESET_LABEL"
+msgid "Preset:"
+msgstr "プリセット:"
+
+msgctxt "STRINGS.MODMANAGER.PRESET_PLACEHOLDER"
+msgid "Preset name"
+msgstr "プリセット名"
+
+msgctxt "STRINGS.MODMANAGER.SAVE_PRESET"
+msgid "Save Preset"
+msgstr "プリセット保存"
+
+msgctxt "STRINGS.MODMANAGER.SELECT_PRESET"
+msgid "Select Preset"
+msgstr "プリセット選択"
+
+msgctxt "STRINGS.MODMANAGER.APPLY_PRESET"
+msgid "Apply Preset"
+msgstr "プリセット適用"
+
+msgctxt "STRINGS.MODMANAGER.DELETE_PRESET"
+msgid "Delete Preset"
+msgstr "プリセット削除"
+
+msgctxt "STRINGS.MODMANAGER.PRESET_HINT"
+msgid "Use [Up][Down] in the enabled list to reorder"
+msgstr "有効リストで[上へ][下へ]を使って順序を変更できます"
+
+msgctxt "STRINGS.MODMANAGER.NO_PRESETS"
+msgid "No presets yet"
+msgstr "プリセットがまだありません"
+
+msgctxt "STRINGS.MODMANAGER.SEARCH_LABEL"
+msgid "Search:"
+msgstr "検索:"
+
+msgctxt "STRINGS.MODMANAGER.SEARCH_PLACEHOLDER"
+msgid "Filter by title or note"
+msgstr "タイトルまたはメモでフィルター"
+
+msgctxt "STRINGS.MODMANAGER.SEARCH_CLEAR"
+msgid "Clear"
+msgstr "クリア"
+
+msgctxt "STRINGS.MODMANAGER.SEARCH_HINT"
+msgid "Filters the list in real-time"
+msgstr "入力後リアルタイムでリストをフィルターします"
+
+msgctxt "STRINGS.MODMANAGER.ENABLED_HEADER"
+msgid "Enabled ({0})"
+msgstr "有効 ({0})"
+
+msgctxt "STRINGS.MODMANAGER.DISABLED_HEADER"
+msgid "Disabled ({0})"
+msgstr "無効 ({0})"
+
+msgctxt "STRINGS.MODMANAGER.MOVE_UP"
+msgid "Up"
+msgstr "上へ"
+
+msgctxt "STRINGS.MODMANAGER.MOVE_DOWN"
+msgid "Down"
+msgstr "下へ"
+
+msgctxt "STRINGS.MODMANAGER.LOCALIZE"
+msgid "Localize"
+msgstr "ローカル化"
+
+msgctxt "STRINGS.MODMANAGER.DELETE"
+msgid "Delete"
+msgstr "削除"
+
+msgctxt "STRINGS.MODMANAGER.CONFIG"
+msgid "Config"
+msgstr "設定"
+
+msgctxt "STRINGS.MODMANAGER.NOTE"
+msgid "Note"
+msgstr "メモ"
+
+msgctxt "STRINGS.MODMANAGER.USE_STEAM"
+msgid "Use Steam"
+msgstr "Steam版を使用"
+
+msgctxt "STRINGS.MODMANAGER.USE_LOCAL"
+msgid "Use Local"
+msgstr "ローカル版を使用"
+
+msgctxt "STRINGS.MODMANAGER.SORT_DIALOG_TITLE"
+msgid "Sort"
+msgstr "並び替え"
+
+msgctxt "STRINGS.MODMANAGER.SORT_DIALOG_TEXT"
+msgid "Pair local mods with their Steam versions?"
+msgstr "ローカルModを対応するSteam版と並べますか？"
+
+msgctxt "STRINGS.MODMANAGER.SORT_DIALOG_YES"
+msgid "Sort"
+msgstr "並び替え"
+
+msgctxt "STRINGS.MODMANAGER.SORT_DIALOG_NO"
+msgid "Don't Sort"
+msgstr "並び替えない"
+
+msgctxt "STRINGS.MODMANAGER.DELETE_TITLE"
+msgid "Delete Local Mod"
+msgstr "ローカルModを削除"
+
+msgctxt "STRINGS.MODMANAGER.DELETE_CONFIRM"
+msgid "Delete [{0}]?\nIts folder will be deleted.\nIf it was localized, the original Steam version will be restored."
+msgstr "[{0}] を削除しますか？\nフォルダごと削除されます。\nローカル化したModの場合、元のSteam版が復元されます。"
+
+msgctxt "STRINGS.MODMANAGER.DELETE_OK"
+msgid "Delete"
+msgstr "削除"
+
+msgctxt "STRINGS.MODMANAGER.CANCEL"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "STRINGS.MODMANAGER.APPLY_PRESET_TITLE"
+msgid "Apply Preset"
+msgstr "プリセット適用"
+
+msgctxt "STRINGS.MODMANAGER.APPLY_PRESET_CONFIRM"
+msgid "Apply preset [{0}]?\nAll current mod states and order will be overwritten."
+msgstr "プリセット [{0}] を適用しますか？\n現在のModの状態と順序はすべて上書きされます。"
+
+msgctxt "STRINGS.MODMANAGER.APPLY_PRESET_OK"
+msgid "Apply"
+msgstr "適用"
+
+msgctxt "STRINGS.MODMANAGER.NOTE_POPUP_TITLE"
+msgid "Edit Note"
+msgstr "メモ編集"
+
+msgctxt "STRINGS.MODMANAGER.NOTE_PLACEHOLDER"
+msgid "Note content"
+msgstr "メモ内容"
+
+msgctxt "STRINGS.MODMANAGER.NOTE_WRITE_BACK"
+msgid "Write back to title (local mods only)"
+msgstr "タイトルに書き戻す（ローカルModのみ）"
+
+msgctxt "STRINGS.MODMANAGER.NOTE_HINT"
+msgid "Notes are saved locally, works for workshop mods too"
+msgstr "メモはローカルに保存され、ワークショップModでも使用できます"
+
+msgctxt "STRINGS.MODMANAGER.NOTE_SAVE"
+msgid "Save"
+msgstr "保存"
+
+msgctxt "STRINGS.MODMANAGER.ADVANCED_MANAGE"
+msgid "Advanced Manage"
+msgstr "詳細管理"
+
+msgctxt "STRINGS.MODMANAGER.ADVANCED_MANAGE_TOOLTIP"
+msgid "Open Mod Manager: localize, notes, sort, presets"
+msgstr "Modマネージャーを開く：ローカル化、メモ、並び替え、プリセット"
+
+msgctxt "STRINGS.MODMANAGER.TOAST_DONE"
+msgid "Done"
+msgstr "完了"
+
+msgctxt "STRINGS.MODMANAGER.TOAST_NO_TEMPLATE"
+msgid "Failed to get entry template, list unavailable"
+msgstr "エントリテンプレートの取得に失敗しました、リストを表示できません"
+
+msgctxt "STRINGS.MODMANAGER.TOAST_MERGE_ADJUSTED"
+msgid "Adjusted {0} mod(s) based on preferred platform"
+msgstr "優先プラットフォームに基づいて {0} 個のModを調整しました"
+
+msgctxt "STRINGS.MODMANAGER.TOAST_SELECT_PRESET_FIRST"
+msgid "Select a preset first"
+msgstr "先にプリセットを選択してください"
+
+msgctxt "STRINGS.MODMANAGER.MERGE_ENABLED"
+msgid "Enabled"
+msgstr "有効"
+
+msgctxt "STRINGS.MODMANAGER.MERGE_DISABLED"
+msgid "Disabled"
+msgstr "無効"
+
+msgctxt "STRINGS.MODMANAGER.LOCAL_TAG"
+msgid "[Local]"
+msgstr "[ローカル]"
