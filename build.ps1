@@ -39,4 +39,24 @@ foreach ($f in $files) {
     $dst = Join-Path $DEPLOY $f
     [System.IO.File]::WriteAllBytes($dst, [System.IO.File]::ReadAllBytes($src))
 }
+
+# 复制 strings 目录（.po 本地化文件）
+$stringsSrc = Join-Path $SRC "strings"
+$stringsDst = Join-Path $DEPLOY "strings"
+if (Test-Path $stringsSrc) {
+    if (-not (Test-Path $stringsDst)) { New-Item -ItemType Directory -Path $stringsDst -Force | Out-Null }
+    foreach ($poFile in [System.IO.Directory]::GetFiles($stringsSrc, "*.po")) {
+        $dstFile = Join-Path $stringsDst ([System.IO.Path]::GetFileName($poFile))
+        [System.IO.File]::WriteAllBytes($dstFile, [System.IO.File]::ReadAllBytes($poFile))
+    }
+}
+
+# 复制 PLib.dll（ModManager_XJ 依赖 PeterHan.PLib.Options）
+$plibSrc = "C:\Users\Administrator\Documents\Klei\OxygenNotIncluded\mods\Local\DisasterPlanet_XJ\PLib.dll"
+$plibDst = Join-Path $DEPLOY "PLib.dll"
+if ([System.IO.File]::Exists($plibSrc)) {
+    [System.IO.File]::WriteAllBytes($plibDst, [System.IO.File]::ReadAllBytes($plibSrc))
+    Write-Host "已复制 PLib.dll"
+}
+
 Write-Host "编译成功，已部署到 $DEPLOY"
