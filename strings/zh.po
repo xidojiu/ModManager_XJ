@@ -1,0 +1,222 @@
+# ModManager_XJ 中文翻译
+# Chinese translation for ModManager_XJ
+
+msgctxt "STRINGS.MODMANAGER.TITLE"
+msgid "Mod Manager"
+msgstr "Mod 管理器"
+
+msgctxt "STRINGS.MODMANAGER.MERGE_DISPLAY_ON"
+msgid "Merge: On"
+msgstr "合并显示: 开"
+
+msgctxt "STRINGS.MODMANAGER.MERGE_DISPLAY_OFF"
+msgid "Merge: Off"
+msgstr "合并显示: 关"
+
+msgctxt "STRINGS.MODMANAGER.MERGE_DISPLAY_TOOLTIP"
+msgid "Hide Steam mods that have a local copy, show only the preferred version"
+msgstr "开启后，有本地版的 Steam mod 会被隐藏，只显示优先版本"
+
+msgctxt "STRINGS.MODMANAGER.MERGE_SORT_ON"
+msgid "Merge Sort: On"
+msgstr "合并排序: 开"
+
+msgctxt "STRINGS.MODMANAGER.MERGE_SORT_OFF"
+msgid "Merge Sort: Off"
+msgstr "合并排序: 关"
+
+msgctxt "STRINGS.MODMANAGER.MERGE_SORT_TOOLTIP"
+msgid "When on, paired mods move together; when off, only the clicked mod moves"
+msgstr "开启后，排序时本地版和 Steam 版整组移动；关闭则只移动单个 mod"
+
+msgctxt "STRINGS.MODMANAGER.CLOSE"
+msgid "Close"
+msgstr "关闭"
+
+msgctxt "STRINGS.MODMANAGER.PRESET_LABEL"
+msgid "Preset:"
+msgstr "预设:"
+
+msgctxt "STRINGS.MODMANAGER.PRESET_PLACEHOLDER"
+msgid "Preset name"
+msgstr "预设名"
+
+msgctxt "STRINGS.MODMANAGER.SAVE_PRESET"
+msgid "Save Preset"
+msgstr "保存预设"
+
+msgctxt "STRINGS.MODMANAGER.SELECT_PRESET"
+msgid "Select Preset"
+msgstr "选择预设"
+
+msgctxt "STRINGS.MODMANAGER.APPLY_PRESET"
+msgid "Apply Preset"
+msgstr "应用预设"
+
+msgctxt "STRINGS.MODMANAGER.DELETE_PRESET"
+msgid "Delete Preset"
+msgstr "删除预设"
+
+msgctxt "STRINGS.MODMANAGER.PRESET_HINT"
+msgid "Use [Up][Down] in the enabled list to reorder"
+msgstr "已启用栏可用 [上移][下移] 调整加载顺序"
+
+msgctxt "STRINGS.MODMANAGER.NO_PRESETS"
+msgid "No presets yet"
+msgstr "还没有预设"
+
+msgctxt "STRINGS.MODMANAGER.SEARCH_LABEL"
+msgid "Search:"
+msgstr "搜索:"
+
+msgctxt "STRINGS.MODMANAGER.SEARCH_PLACEHOLDER"
+msgid "Filter by title or note"
+msgstr "按标题或备注过滤"
+
+msgctxt "STRINGS.MODMANAGER.SEARCH_CLEAR"
+msgid "Clear"
+msgstr "清除"
+
+msgctxt "STRINGS.MODMANAGER.SEARCH_HINT"
+msgid "Filters the list in real-time"
+msgstr "输入后列表实时过滤"
+
+msgctxt "STRINGS.MODMANAGER.ENABLED_HEADER"
+msgid "Enabled ({0})"
+msgstr "已启用 ({0})"
+
+msgctxt "STRINGS.MODMANAGER.DISABLED_HEADER"
+msgid "Disabled ({0})"
+msgstr "未启用 ({0})"
+
+msgctxt "STRINGS.MODMANAGER.MOVE_UP"
+msgid "Up"
+msgstr "上移"
+
+msgctxt "STRINGS.MODMANAGER.MOVE_DOWN"
+msgid "Down"
+msgstr "下移"
+
+msgctxt "STRINGS.MODMANAGER.LOCALIZE"
+msgid "Localize"
+msgstr "转本地"
+
+msgctxt "STRINGS.MODMANAGER.DELETE"
+msgid "Delete"
+msgstr "删除"
+
+msgctxt "STRINGS.MODMANAGER.CONFIG"
+msgid "Config"
+msgstr "配置"
+
+msgctxt "STRINGS.MODMANAGER.NOTE"
+msgid "Note"
+msgstr "备注"
+
+msgctxt "STRINGS.MODMANAGER.USE_STEAM"
+msgid "Use Steam"
+msgstr "用Steam"
+
+msgctxt "STRINGS.MODMANAGER.USE_LOCAL"
+msgid "Use Local"
+msgstr "用本地"
+
+msgctxt "STRINGS.MODMANAGER.SORT_DIALOG_TITLE"
+msgid "Sort"
+msgstr "排序"
+
+msgctxt "STRINGS.MODMANAGER.SORT_DIALOG_TEXT"
+msgid "Pair local mods with their Steam versions?"
+msgstr "是否要把本地 mod 和对应的 Steam 版排在一起？"
+
+msgctxt "STRINGS.MODMANAGER.SORT_DIALOG_YES"
+msgid "Sort"
+msgstr "排序"
+
+msgctxt "STRINGS.MODMANAGER.SORT_DIALOG_NO"
+msgid "Don't Sort"
+msgstr "不排序"
+
+msgctxt "STRINGS.MODMANAGER.DELETE_TITLE"
+msgid "Delete Local Mod"
+msgstr "删除本地 mod"
+
+msgctxt "STRINGS.MODMANAGER.DELETE_CONFIRM"
+msgid "Delete [{0}]?\nIts folder will be deleted.\nIf it was localized, the original Steam version will be restored."
+msgstr "确定要删除 [{0}] 吗？\n会删掉它的文件夹。\n如果是转本地产生的，会顺便恢复原来的 Steam 版。"
+
+msgctxt "STRINGS.MODMANAGER.DELETE_OK"
+msgid "Delete"
+msgstr "删除"
+
+msgctxt "STRINGS.MODMANAGER.CANCEL"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "STRINGS.MODMANAGER.APPLY_PRESET_TITLE"
+msgid "Apply Preset"
+msgstr "应用预设"
+
+msgctxt "STRINGS.MODMANAGER.APPLY_PRESET_CONFIRM"
+msgid "Apply preset [{0}]?\nAll current mod states and order will be overwritten."
+msgstr "确定要应用预设 [{0}] 吗？\n当前所有 mod 的开关状态和顺序会被覆盖。"
+
+msgctxt "STRINGS.MODMANAGER.APPLY_PRESET_OK"
+msgid "Apply"
+msgstr "确定"
+
+msgctxt "STRINGS.MODMANAGER.NOTE_POPUP_TITLE"
+msgid "Edit Note"
+msgstr "写备注"
+
+msgctxt "STRINGS.MODMANAGER.NOTE_PLACEHOLDER"
+msgid "Note content"
+msgstr "备注内容"
+
+msgctxt "STRINGS.MODMANAGER.NOTE_WRITE_BACK"
+msgid "Write back to title (local mods only)"
+msgstr "写回标题（仅本地 mod）"
+
+msgctxt "STRINGS.MODMANAGER.NOTE_HINT"
+msgid "Notes are saved locally, works for workshop mods too"
+msgstr "备注保存在本地，创意工坊 mod 也能用，保存后立即生效"
+
+msgctxt "STRINGS.MODMANAGER.NOTE_SAVE"
+msgid "Save"
+msgstr "保存"
+
+msgctxt "STRINGS.MODMANAGER.ADVANCED_MANAGE"
+msgid "Advanced Manage"
+msgstr "高级管理"
+
+msgctxt "STRINGS.MODMANAGER.ADVANCED_MANAGE_TOOLTIP"
+msgid "Open Mod Manager: localize, notes, sort, presets"
+msgstr "打开 Mod 管理器：转本地、备注、排序、预设"
+
+msgctxt "STRINGS.MODMANAGER.TOAST_DONE"
+msgid "Done"
+msgstr "完成"
+
+msgctxt "STRINGS.MODMANAGER.TOAST_NO_TEMPLATE"
+msgid "Failed to get entry template, list unavailable"
+msgstr "拿不到原版条目模板，列表无法显示"
+
+msgctxt "STRINGS.MODMANAGER.TOAST_MERGE_ADJUSTED"
+msgid "Adjusted {0} mod(s) based on preferred platform"
+msgstr "已根据优先平台调整 {0} 个 mod 的启用状态"
+
+msgctxt "STRINGS.MODMANAGER.TOAST_SELECT_PRESET_FIRST"
+msgid "Select a preset first"
+msgstr "请先点击选择预设"
+
+msgctxt "STRINGS.MODMANAGER.MERGE_ENABLED"
+msgid "Enabled"
+msgstr "启用"
+
+msgctxt "STRINGS.MODMANAGER.MERGE_DISABLED"
+msgid "Disabled"
+msgstr "停用"
+
+msgctxt "STRINGS.MODMANAGER.LOCAL_TAG"
+msgid "[Local]"
+msgstr "[本地]"
