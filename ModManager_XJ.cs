@@ -34,14 +34,32 @@ namespace ModManager_XJ
         {
             try
             {
-                // 先找 .po 文件路径
+                // 检测游戏语言
+                string langCode = "en";
+                try
+                {
+                    string code = Localization.GetCurrentLanguageCode();
+                    if (!string.IsNullOrEmpty(code))
+                    {
+                        // "zh_klei" → "zh", "ja" → "ja", 其他默认 en
+                        if (code.StartsWith("zh"))
+                            langCode = "zh";
+                        else if (code.StartsWith("ja"))
+                            langCode = "ja";
+                        else
+                            langCode = "en";
+                    }
+                }
+                catch { }
+
+                // 找对应语言的 .po 文件路径
                 string poPath = null;
                 try
                 {
                     string dllPath = Assembly.GetExecutingAssembly().Location;
                     if (!string.IsNullOrEmpty(dllPath))
                     {
-                        poPath = Path.Combine(Path.GetDirectoryName(dllPath), "strings", "zh.po");
+                        poPath = Path.Combine(Path.GetDirectoryName(dllPath), "strings", langCode + ".po");
                     }
                 }
                 catch
@@ -55,7 +73,7 @@ namespace ModManager_XJ
                     int count = LoadPoFile(poPath);
                     if (count > 0)
                     {
-                        Debug.Log("[MM] 已从 .po 文件加载 " + count + " 个本地化字符串");
+                        Debug.Log("[MM] 已从 .po 文件加载 " + count + " 个本地化字符串 (lang=" + langCode + ")");
                         return;
                     }
                 }
