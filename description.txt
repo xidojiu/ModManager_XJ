@@ -1,0 +1,70 @@
+[EN] In-game Mod Manager for Oxygen Not Included: localize workshop mods, add notes, sort load order, save/apply presets.
+
+Features:
+- One-click localize: copy a workshop mod to local folder, auto-disable the original
+- Notes: add notes to any mod (write back to title for local mods, persist after restart)
+- Presets: save/load mod combinations, switch between mod packs instantly
+- Sort: reorder enabled mods with Up/Down buttons
+- Delete local mod: removes folder, restores original Steam version if applicable
+- Merge display: hide Steam mods that have a local copy, show only the preferred version
+- Merge sort: paired mods move together when sorting
+- Search: filter mod list by title or note in real-time
+- Config button: one-click open mod settings (requires PLib)
+- Multi-language: Chinese / English / Japanese, auto-detects game language
+
+Click "Advanced Manage" button on the top-right of the mods list screen to open.
+
+━━━
+
+[CN] 缺氧（Oxygen Not Included）游戏内 Mod 管理器：一键转本地、备注、排序、预设。
+
+功能：
+- 一键转本地：把 Steam mod 复制到本地目录，自动禁用原版
+- 备注：给任何 mod 加备注（本地 mod 可写回标题，重启不丢）
+- 预设：保存/加载 mod 组合，换星球一键切换
+- 排序：已启用栏用上移/下移调整加载顺序
+- 删除本地 mod：删文件夹，转本地的会自动恢复原 Steam 版
+- 合并显示：有本地版的 Steam mod 自动隐藏，只显示优先版本
+- 合并排序：排序时本地版和 Steam 版整组移动
+- 搜索：按标题或备注实时过滤
+- 配置按钮：一键打开 mod 设置界面（需 PLib）
+- 多语言：中文 / 英文 / 日文，根据游戏语言自动切换
+
+在 mod 列表窗口右上角点"高级管理"按钮进入。
+
+━━━
+
+[JP] Oxygen Not Included 用ゲーム内 Mod マネージャー：ローカル化、メモ、並び替え、プリセット。
+
+機能：
+- ワンクリックローカル化：Steam Mod をローカルにコピー、元の Steam 版を自動無効化
+- メモ：任意の Mod にメモを追加（ローカル Mod はタイトルに書き戻し可能）
+- プリセット：Mod 構成の保存/適用、惑星切り替え時にワンクリックで切替
+- 並び替え：有効リストで上へ/下へボタンでロード順を調整
+- ローカル Mod 削除：フォルダごと削除、ローカル化した Mod は元の Steam 版を復元
+- マージ表示：ローカルコピーがある Steam Mod を非表示、優先版のみ表示
+- マージ並び替え：ペアの Mod が一緒に移動
+- 検索：タイトルまたはメモでリアルタイムフィルター
+- 設定ボタン：ワンクリックで Mod 設定を開く（PLib 必要）
+- 多言語：中国語 / 英語 / 日本語、ゲーム言語に自動対応
+
+Modリスト画面右上の「詳細管理」ボタンをクリックして開きます。
+
+━━━ v1.3.0 更新 ━━━
+新增：
+- 多语言支持：中文/英文/日文，根据游戏语言自动切换
+- 本地化改用 .po 文件，社区可自行修改翻译
+- 搜索框：按标题或备注实时过滤 mod 列表
+- 备注功能：Steam mod 也能加备注，重启不丢
+- 预设（整合包）：保存/应用/删除 mod 配置
+- 高级管理按钮：原版 Mods 界面右上角一键打开
+
+优化：
+- 两栏列表：已启用/未启用分开显示，一目了然
+- 排序操作更流畅，支持合并排序（本地+Steam 整组移动）
+- 删除本地 mod 时自动恢复原 Steam 版
+- 依赖 PLib，支持有配置界面的 mod 一键打开设置
+
+修复：
+- 编译部署稳定性修复
+- 本地化字符串不再硬编码，改为 .po 文件加载
