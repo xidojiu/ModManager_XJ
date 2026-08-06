@@ -1,0 +1,222 @@
+# ModManager_XJ English translation
+# English translation for ModManager_XJ
+
+msgctxt "STRINGS.MODMANAGER.TITLE"
+msgid "Mod Manager"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.MERGE_DISPLAY_ON"
+msgid "Merge: On"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.MERGE_DISPLAY_OFF"
+msgid "Merge: Off"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.MERGE_DISPLAY_TOOLTIP"
+msgid "Hide Steam mods that have a local copy, show only the preferred version"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.MERGE_SORT_ON"
+msgid "Merge Sort: On"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.MERGE_SORT_OFF"
+msgid "Merge Sort: Off"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.MERGE_SORT_TOOLTIP"
+msgid "When on, paired mods move together; when off, only the clicked mod moves"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.CLOSE"
+msgid "Close"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.PRESET_LABEL"
+msgid "Preset:"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.PRESET_PLACEHOLDER"
+msgid "Preset name"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.SAVE_PRESET"
+msgid "Save Preset"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.SELECT_PRESET"
+msgid "Select Preset"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.APPLY_PRESET"
+msgid "Apply Preset"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.DELETE_PRESET"
+msgid "Delete Preset"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.PRESET_HINT"
+msgid "Use [Up][Down] in the enabled list to reorder"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.NO_PRESETS"
+msgid "No presets yet"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.SEARCH_LABEL"
+msgid "Search:"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.SEARCH_PLACEHOLDER"
+msgid "Filter by title or note"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.SEARCH_CLEAR"
+msgid "Clear"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.SEARCH_HINT"
+msgid "Filters the list in real-time"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.ENABLED_HEADER"
+msgid "Enabled ({0})"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.DISABLED_HEADER"
+msgid "Disabled ({0})"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.MOVE_UP"
+msgid "Up"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.MOVE_DOWN"
+msgid "Down"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.LOCALIZE"
+msgid "Localize"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.DELETE"
+msgid "Delete"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.CONFIG"
+msgid "Config"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.NOTE"
+msgid "Note"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.USE_STEAM"
+msgid "Use Steam"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.USE_LOCAL"
+msgid "Use Local"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.SORT_DIALOG_TITLE"
+msgid "Sort"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.SORT_DIALOG_TEXT"
+msgid "Pair local mods with their Steam versions?"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.SORT_DIALOG_YES"
+msgid "Sort"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.SORT_DIALOG_NO"
+msgid "Don't Sort"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.DELETE_TITLE"
+msgid "Delete Local Mod"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.DELETE_CONFIRM"
+msgid "Delete [{0}]?\nIts folder will be deleted.\nIf it was localized, the original Steam version will be restored."
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.DELETE_OK"
+msgid "Delete"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.CANCEL"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.APPLY_PRESET_TITLE"
+msgid "Apply Preset"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.APPLY_PRESET_CONFIRM"
+msgid "Apply preset [{0}]?\nAll current mod states and order will be overwritten."
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.APPLY_PRESET_OK"
+msgid "Apply"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.NOTE_POPUP_TITLE"
+msgid "Edit Note"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.NOTE_PLACEHOLDER"
+msgid "Note content"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.NOTE_WRITE_BACK"
+msgid "Write back to title (local mods only)"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.NOTE_HINT"
+msgid "Notes are saved locally, works for workshop mods too"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.NOTE_SAVE"
+msgid "Save"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.ADVANCED_MANAGE"
+msgid "Advanced Manage"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.ADVANCED_MANAGE_TOOLTIP"
+msgid "Open Mod Manager: localize, notes, sort, presets"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.TOAST_DONE"
+msgid "Done"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.TOAST_NO_TEMPLATE"
+msgid "Failed to get entry template, list unavailable"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.TOAST_MERGE_ADJUSTED"
+msgid "Adjusted {0} mod(s) based on preferred platform"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.TOAST_SELECT_PRESET_FIRST"
+msgid "Select a preset first"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.MERGE_ENABLED"
+msgid "Enabled"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.MERGE_DISABLED"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "STRINGS.MODMANAGER.LOCAL_TAG"
+msgid "[Local]"
+msgstr ""
